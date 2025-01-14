@@ -99,7 +99,7 @@ def main():
     choice = st.sidebar.selectbox("Navigation", menu)
 
     if choice == "Home":
-        st.title("Wound Classifier and First Aid App")
+        st.title("Panacea AI")
         st.write("Upload an image or take a picture to classify the wound type and get first aid advice.")
 
         # Image upload option
@@ -132,8 +132,10 @@ def main():
         The aim is to empower users to take immediate and informed action during emergencies by offering concise and accurate first aid advice. However, it is important to note that this tool is not a substitute for professional medical care. For severe injuries or if symptoms persist, seeking prompt consultation from healthcare professionals is imperative.
 
         With an intuitive interface, this app ensures a user-friendly experience. Whether you're at home, in the workplace, or traveling, it equips you with critical knowledge and guidance for handling minor injuries effectively.
-
+                 
         Your safety and well-being are our priorities. Use this app as a companion to enhance your emergency response capabilities, but always prioritize seeking proper medical attention.
+                 
+        While the app is built comprehensively, it still cannot replace medical professionals and its functionalities are currently constrained but further updates will be released soon.
         """)
 
     elif choice == "Emergency":
